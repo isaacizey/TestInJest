@@ -1,7 +1,7 @@
 
 before_script: 
 - chmod 0555 ./node_modules/.bin/jest
-- chmod +x build.sh
+ - chmod +x gradlew
 
 language: node_js
 node_js:
