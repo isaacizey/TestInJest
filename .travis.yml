@@ -1,4 +1,6 @@
 sudo: false
+before_script: chmod 0555 ./node_modules/.bin/jest
+
 language: node_js
 node_js:
 - '8'
