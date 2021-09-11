@@ -20,7 +20,7 @@ test('add 1+2 to get 3', () => {
     expect(sum(1,2)).toBe(3);
     expect(sum(1,2)).not.toBe(null);
     expect(sum(1,2)).not.toBeUndefined(); 
-    console.log("1+2="+sum(1,2));
+    
 });
 
 test('greater than 2',() => {
