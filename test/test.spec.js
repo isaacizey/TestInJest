@@ -1,20 +1,4 @@
- class User {
-     constructor(details)
-     {
-         const {firstName,lastName} = details
-         this.lastName = lastName;
-         this.firstName = firstName;
-     }
- 
-
- get name() {
-return `${this.firstName} ${this.lastName}`;
- }
-}
- 
- function sum(a,b){
-    return a+b;
-}
+import {User,sum} from '../user';
 
 test('add 1+2 to get 3', () => {
     expect(sum(1,2)).toBe(3);
